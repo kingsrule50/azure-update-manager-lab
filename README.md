@@ -3,7 +3,7 @@
 **Enterprise Azure Infrastructure Automation series** — policy-based patch assessment, a scheduled maintenance window, and automated compliance reporting, deployed with modular Terraform onto my existing Azure infrastructure and validated end-to-end with PowerShell.
 
 **Stack:** Terraform (azurerm) · Azure Update Manager · Azure Policy · ARM REST API · PowerShell 7 (Az module) · Azure CLI
-
+> **Related lab — same objective, the other way.** This lab does scheduled patching with **Terraform on Windows VMs** (Azure Policy auto-enrollment + a PowerShell compliance report). For the **Bicep / Linux** counterpart — which adds on-demand patch deployment and change tracking & inventory — see [Module 05, Lab 5 of my AZ-104 series](https://github.com/kingsrule50/azure-monitor-backup-dr-lab/tree/main/labs/lab-05-update-management-vm-maintenance).
 ---
 
 ## 💼 The Business Problem
